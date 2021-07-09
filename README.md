@@ -24,3 +24,8 @@ MinerBoot funciona con cualquier software de minería por GPU como T-REX, Phoeni
 MinerBoot es una aplicación para sistemas operativos Windows y necesita permisos de administrador para ejecutarse correctamente.
 
 Si se te ocurre alguna mejora o te gustaría agregar alguna funcionalidad, ponte en contacto conmigo.
+
+
+Capturas del programa:
+https://i.postimg.cc/rsbRb9j2/minerboot1.png
+https://i.postimg.cc/N049YtD4/minerboot2.png
