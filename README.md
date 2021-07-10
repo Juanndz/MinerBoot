@@ -15,7 +15,7 @@ En principio tenía que ser una aplicación solo para mi pero la he ido mejorand
 
 ¿CÓMO FUNCIONA?
 ---------------
-La idea es simple, MinerBoot crea una lista de todas las GPUs instaladas en el sistema y controla sus temperaturas. A diferencia de CoreTemp, MinerBoot no pone el sistema a hibernar. Si alguna GPU supera la temperatura límite que hemos marcado previamente, este software se encargará de finalizar el proceso del minero, luego hará una pausa de X minutos para que las GPUs se enfíen y luego volverá a lanzar el proceso del minero.
+La idea es simple, MinerBoot crea una lista de todas las GPUs instaladas en el sistema y controla sus temperaturas. A diferencia de CoreTemp, MinerBoot no pone el sistema a hibernar. Si alguna GPU supera la temperatura límite que hemos marcado previamente, este software se encargará de finalizar el proceso del minero, luego hará una pausa de 5 minutos para que las GPUs se enfíen y luego volverá a lanzar el proceso del minero.
 
 En la configuración de la aplicación podemos ajustar la temperatura límite para las GPUs, el ejecutable (.exe) del minero, la linea de comandos para lanzar el minero
 y la forma de finalizar el proceso del minero (forzado o no). 
