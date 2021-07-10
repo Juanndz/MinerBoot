@@ -18,11 +18,15 @@ En principio tenía que ser una aplicación solo para mi pero la he ido mejorand
 La idea es simple, MinerBoot crea una lista de todas las GPUs instaladas en el sistema y controla sus temperaturas. A diferencia de CoreTemp, MinerBoot no pone el sistema a hibernar. Si alguna GPU supera la temperatura límite que hemos marcado previamente, este software se encargará de finalizar el proceso del minero, luego hará una pausa de X minutos para que las GPUs se enfíen y luego volverá a lanzar el proceso del minero.
 
 En la configuración de la aplicación podemos ajustar la temperatura límite para las GPUs, el ejecutable (.exe) del minero, la linea de comandos para lanzar el minero
-y la forma de finalizar el proceso del minero (forzado o no):
+y la forma de finalizar el proceso del minero (forzado o no). 
+
+¿En que se diferencian estos dos métodos de apagado del minero?:
 
 Normal  -> Process.CloseMainWindow(): Es cómo si apretas el botón X para cerrar la ventana del minero.
 
 Forzado -> Process.Kill(): Es cómo apretar Ctrl+Alt+Supr y finalizar la tarea en el task manager.
+
+Algunas veces me ha pasado que la ventana del minero se queda colgada y no se cierra correctamente con Process.CloseMainWindow() así que decidí implementar el cierre forzado con Process.Kill(), ambos métodos se pueden ajustar en la ventana de "Settings" (ajustes).
 
 
 CÓDIGO DE TRECEROS
