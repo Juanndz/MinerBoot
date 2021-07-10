@@ -30,15 +30,24 @@ CÓDIGO DE TRECEROS
 MinerBoot utiliza las librerías de Libre Hardware Monitor para leer las temperaturas y los nombres de las tarjetas gráficas.
 https://github.com/LibreHardwareMonitor/LibreHardwareMonitor/releases
 
+Para leer los valores guardados en el archivo de configuración .INI utiliza la clase INIReadWrite que encontré en StackOverflow y que he compartido en mi blog.
+https://solovb.net/leer-escribir-archivos-ini-vb-net/
+
 
 ¿CON QUE SOFTWARE DE MINADO ES COMPATIBLE?
 ------------------------------------------
-MinerBoot funciona con cualquier software de minería por GPU como T-REX, PhoenixMiner, etc...
+MinerBoot funciona con cualquier software de minería por GPU como T-REX, PhoenixMiner, NiceHash, CudoMiner, etc...
 
 
 ¿CON QUE SISTEMAS OPERATIVOS ES COMPATIBLE?
 ------------------------------------------
 MinerBoot es una aplicación para sistemas operativos Windows (7, 8 y 10) y necesita permisos de administrador para poder leer las temperaturas de las GPUs correctamente.
+¡NO FUNCIONA EN MAC Y LINUX!
+
+
+CÓDIGO FUENTE
+-------------
+En este momento no está disponible el código fuente pero en un futuro si tengo pensado liberarlo para que se pueda modificar libremente.
 
 
 CAPTURAS DEL PROGRAMA
