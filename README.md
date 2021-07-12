@@ -56,7 +56,7 @@ CAPTURAS DEL PROGRAMA
 ---------------------
 https://i.postimg.cc/MHcDxsjK/1.png
 
-https://i.postimg.cc/VkFHKVq3/2.png
+https://i.postimg.cc/66G722j3/2.png
 
 https://i.postimg.cc/jjd3m4vC/3.png
 
