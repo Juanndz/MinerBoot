@@ -8,9 +8,7 @@ He tratado de buscar algún software como CoreTemp (https://www.alcpu.com/CoreTe
 
 ¿QUÉ ES MINERBOOT?
 ------------------
-MinerBoot es un software que he programado en Visual Basic.NET para tener controladas las temperaturas de todas las GPUs de mi RIG de minado de criptomonedas y una especie de sistema de seguridad anti sobrecalentamiento.
-
-En principio tenía que ser una aplicación solo para mi pero la he ido mejorando y creo que a alguien más le podría ser de uilidad.
+MinerBoot es un software que he programado en Visual Basic.NET para tener controladas las temperaturas de todas las GPUs de mi RIG de minado de criptomonedas y también incluye un sistema de seguridad anti sobrecalentamiento.
 
 
 ¿CÓMO FUNCIONA?
@@ -40,7 +38,7 @@ https://solovb.net/leer-escribir-archivos-ini-vb-net/
 
 ¿CON QUE SOFTWARE DE MINADO ES COMPATIBLE?
 ------------------------------------------
-MinerBoot funciona con cualquier software de minería por GPU como T-REX, PhoenixMiner, NiceHash, CudoMiner, etc...
+MinerBoot funciona con cualquier software de minería por GPU que admita ejecutarse mediante línea de comandos, por ejemplo T-REX, PhoenixMiner, etc...
 
 
 ¿CON QUE SISTEMAS OPERATIVOS ES COMPATIBLE?
@@ -51,7 +49,7 @@ MinerBoot es una aplicación para sistemas operativos Windows (7, 8 y 10) y nece
 
 CÓDIGO FUENTE
 -------------
-En este momento no está disponible el código fuente pero en un futuro si tengo pensado liberarlo para que se pueda modificar libremente.
+En este momento no está disponible el código fuente porque quiero ajustarlo todavía más y ponerle alguna opción interesante, pero en un futuro si tengo pensado liberarlo para que se pueda modificar libremente.
 
 
 CAPTURAS DEL PROGRAMA
