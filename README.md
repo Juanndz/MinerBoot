@@ -61,4 +61,4 @@ https://i.postimg.cc/66G722j3/2.png
 https://i.postimg.cc/jjd3m4vC/3.png
 
 
-Si se te ocurre alguna mejora o te gustaría agregar alguna funcionalidad, ponte en contacto conmigo y lo hablamos.
+Si se te ocurre alguna mejora o te gustaría agregar alguna funcionalidad, ponte en contacto conmigo y lo hablamos. 
