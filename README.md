@@ -50,16 +50,15 @@ MinerBoot es una aplicación para sistemas operativos Windows (7, VISTA, 8 y 10)
 ¡NO FUNCIONA EN MAC Y LINUX!
 
 
-CÓDIGO FUENTE
--------------
-En este momento no está disponible el código fuente porque quiero ajustarlo todavía más y ponerle alguna opción interesante, pero en un futuro si tengo pensado liberarlo para que se pueda modificar libremente.
-
-
 ¿POR QUÉ MINERBOOT PIDE PERMISOS DE ADMINISTRADOR?
 --------------------------------------------------
 Al ejecutar MinerBoot, el control de cuentas de usuario de Windows nos pedirá que proporcionemos permisos de administrador a la aplicación. MinerBoot no necesita permisos especiales para poder ejecutarse pero algunas de las librerías que usa si necesitan esos permisos para poder cumplir con su tarea. Algunas de estas librerías son:
 
 - Libre Hardware Monitor
 
+
+CÓDIGO FUENTE
+-------------
+En este momento no está disponible el código fuente porque quiero ajustarlo todavía más y ponerle alguna opción interesante, pero en un futuro si tengo pensado liberarlo para que se pueda modificar libremente.
 
 Si se te ocurre alguna mejora o te gustaría agregar alguna funcionalidad, ponte en contacto conmigo y lo hablamos. 
