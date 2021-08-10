@@ -1,3 +1,8 @@
+<img alt="Windows" src="https://img.shields.io/badge/-Windows-0078D6?style=flat&logo=windows&logoColor=white"/> <img alt="NET" src="https://img.shields.io/badge/-Visual%20Basic-blue?style=flat&logo=.net&logoColor=white"/>
+
+
+
+
 EL PROBLEMA
 ------------------
 Las tarjetas gráficas (GPUs) se calientan mucho al minar criptomonedas ya que funcionan al 100% de forma continuada. En verano es mucho peor ya que suben las temperaturas y es prácticamente imposible tener un RIG encendido sin poner el aire acondicionado o un ventilador al lado porque las GPUs se sobrecalientan en exceso, incluso haciendo undervolting y/o bajando el power limit.
