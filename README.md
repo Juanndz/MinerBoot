@@ -67,7 +67,13 @@ Todo software de minado puede fallar y cerrarse por un error de Windows, de los 
 
 Para usar esta opción te recomiendo que configures tu minero para que se cierre en caso de error fatal, así MinerBoot podrá detectar que el software de minado ha fallado.
 
-**EJEMPLO:** El software de minado T-REX tiene un comando para esto: **--exit-on-cuda-error**, busca el comando preciso para tu software de minado y agrégalo a la linea de comandos en las opciones de MinerBoot.
+**EJEMPLO:** El software de minado T-REX tiene algunos comandos para esto cómo:
+
+**--exit-on-cuda-error**
+**--exit-on-connection-lost**
+**--exit-on-high-power**
+
+Busca los comandos precisos para tu software de minado y agrégalos a la linea de comandos en las opciones de MinerBoot.
 
 CÓDIGO FUENTE
 -------------
