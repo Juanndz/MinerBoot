@@ -1,8 +1,6 @@
 <img alt="Windows" src="https://img.shields.io/badge/-Windows-0078D6?style=flat&logo=windows&logoColor=white"/> <img alt="NET" src="https://img.shields.io/badge/-Visual%20Basic-blue?style=flat&logo=.net&logoColor=white"/>
 
 
-
-
 EL PROBLEMA
 ------------------
 Las tarjetas gráficas (GPUs) se calientan mucho al minar criptomonedas ya que funcionan al 100% de forma continuada. En verano es mucho peor ya que suben las temperaturas y es prácticamente imposible tener un RIG encendido sin poner el aire acondicionado o un ventilador al lado porque las GPUs se sobrecalientan en exceso, incluso haciendo undervolting y/o bajando el power limit.
@@ -13,6 +11,8 @@ He tratado de buscar algún software como CoreTemp (https://www.alcpu.com/CoreTe
 LA SOLUCIÓN - ¿QUÉ ES MINERBOOT?
 --------------------------------
 MinerBoot es un software que he programado en Visual Basic.NET para tener controladas las temperaturas de todas las GPUs de mi RIG de minado de criptomonedas y que también incluye un pequeño sistema de seguridad anti sobrecalentamiento.
+
+**ATENCION:** MinerBoot no es un software de minado, es un launcher para tu minero favorito.
 
 
 ¿CÓMO FUNCIONA?
@@ -52,18 +52,32 @@ MinerBoot funciona con cualquier software de minería por GPU que admita ejecuta
 ------------------------------------------
 MinerBoot es una aplicación para sistemas operativos Windows (7, VISTA, 8 y 10) y necesita permisos de administrador para poder leer las temperaturas de las GPUs correctamente.
 
-¡NO FUNCIONA EN MAC Y LINUX!
+**¡NO FUNCIONA EN MAC Y LINUX!**
 
 
 ¿POR QUÉ MINERBOOT PIDE PERMISOS DE ADMINISTRADOR?
 --------------------------------------------------
-Al ejecutar MinerBoot, el control de cuentas de usuario de Windows nos pedirá que proporcionemos permisos de administrador a la aplicación. MinerBoot no necesita permisos especiales para poder ejecutarse pero algunas de las librerías que usa si necesitan esos permisos para poder cumplir con su tarea. Algunas de estas librerías son:
+Al ejecutar MinerBoot, el control de cuentas de usuario de Windows nos pedirá que proporcionemos permisos de administrador a la aplicación. MinerBoot no necesita permisos especiales para poder ejecutarse pero algunas de las librerías que usa si necesitan esos permisos para poder cumplir con su tarea. Estas librerías son:
 
 - Libre Hardware Monitor
 
+¿PARA QUÉ SIRVE EL WATCHDOG DE MINERBOOT Y CÓMO USARLO CORRECTAMENTE?
+---------------------------------------------------------------------
+Todo software de minado puede fallar y cerrarse por un error de Windows, de los drivers o del propio programa. Para evitar esto, he incluido una rutina para comprobar cada 5 segundos que el programa de minado está funcionando. Si MinerBoot detecta que el programa de minado se ha cerrado, lo volverá a ejecutar.
+
+Para usar esta opción te recomiendo que configures tu minero para que se cierre en caso de error fatal, así MinerBoot podrá detectar que el software de minado ha fallado.
+
+**EJEMPLO:** El software de minado T-REX tiene un comando para esto: **--exit-on-cuda-error**, busca el comando preciso para tu software de minado y agrégalo a la linea de comandos en las opciones de MinerBoot.
 
 CÓDIGO FUENTE
 -------------
 En este momento no está disponible el código fuente porque quiero ajustarlo todavía más y ponerle alguna opción interesante, pero en un futuro si tengo pensado liberarlo para que se pueda modificar libremente.
 
-Si se te ocurre alguna mejora o te gustaría agregar alguna funcionalidad, ponte en contacto conmigo y lo hablamos. 
+AGRADECIMIENTOS
+---------------
+Quiero hacer especial mención a un Youtuber que he tenido el placer de conocer y que le ha dedicado un video a una versión anterior de este software.
+Podéis ver el video desde este enlace: https://www.youtube.com/watch?v=IfHPQNG_aRI
+
+SOPORTE TÉCNICO Y AYUDA
+-----------------------
+Si se te ocurre alguna mejora, te gustaría agregar alguna funcionalidad o has encontrado un error, ponte en contacto conmigo via emial en f.paez@hotmail.es y lo hablamos.
