@@ -84,7 +84,7 @@ En este momento no está disponible el código fuente porque quiero ajustarlo to
 AGRADECIMIENTOS
 ---------------
 Quiero hacer especial mención a un Youtuber que he tenido el placer de conocer y que le ha dedicado un video a una versión anterior de este software.
-Podéis ver el video desde este enlace: https://www.youtube.com/watch?v=IfHPQNG_aRI
+Podéis ver el video en el canal de Elbo desde este enlace: https://www.youtube.com/watch?v=IfHPQNG_aRI
 
 SOPORTE TÉCNICO Y AYUDA
 -----------------------
