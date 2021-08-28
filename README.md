@@ -1,5 +1,7 @@
 <img src="https://i.postimg.cc/grbGQYps/minerboot.png">
 
+<img src="https://i.postimg.cc/L5bNVW7K/minerboot2.png">
+
 <img alt="Windows" src="https://img.shields.io/badge/-Windows-0078D6?style=flat&logo=windows&logoColor=white"/> <img alt="NET" src="https://img.shields.io/badge/-Visual%20Basic-blue?style=flat&logo=.net&logoColor=white"/>
 
 
